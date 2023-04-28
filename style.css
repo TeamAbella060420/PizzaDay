@@ -187,4 +187,5 @@ section {
   background: var(--primary-color);
   border-radius: 50%;
   border: 5px solid #689e48;
+  cursor: pointer;
 }

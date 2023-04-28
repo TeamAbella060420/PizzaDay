@@ -63,3 +63,8 @@ h4 {
 
 /* =========== header style ============= */
 
+.nav__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

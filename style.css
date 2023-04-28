@@ -85,8 +85,34 @@ h4 {
   color: var(--small-text-color);
   font-weight: 500;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: var(--primary-color);
 }
 
 .nav__item:nth-child(1) a {
   color: #fff;
+  position: relative;
+  z-index: 9;
+}
+
+.nav__item:nth-child(1) a::before {
+  content: "";
+  width: 50px;
+  height: 2px;
+  background: var(--primary-color);
+  color: var(--primary-color);
+  position: absolute;
+  top: 120%;
+  left: 0;
+  z-index: 999;
+}
+
+.mobile__menu {
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: none;
 }

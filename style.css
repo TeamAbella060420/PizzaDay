@@ -219,9 +219,10 @@ section {
   display: flex;
   column-gap: 1rem;
   cursor: pointer;
-  background: #152833;
+  background: var(--card-bg);
   padding: 20px;
   border-radius: 5px;
+  transition: 0.3s;
 }
 
 .dish__img {
@@ -279,4 +280,8 @@ section {
 .dish__item:nth-child(3) .dish__img img {
   width: 150%;
   margin-left: -15px;
+}
+
+.dish__item:hover {
+  transform: translateY(-1rem);
 }

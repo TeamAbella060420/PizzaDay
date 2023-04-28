@@ -216,4 +216,14 @@ section {
 
 .dish__item {
   width: 33%;
+  display: flex;
+  column-gap: 1rem;
+}
+
+.dish__img {
+  width: 25%;
+}
+
+.dish__img img {
+  width: 100%;
 }

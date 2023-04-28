@@ -84,6 +84,7 @@ h4 {
 .nav__link {
   color: var(--small-text-color);
   font-weight: 500;
+  cursor: pointer;
 }
 
 .nav__item:nth-child(1) a {

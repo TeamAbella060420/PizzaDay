@@ -122,4 +122,7 @@ h4 {
   height: 80px;
   line-height: 80px;
   position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }

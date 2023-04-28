@@ -38,3 +38,15 @@ a {
 ul {
   list-style: none;
 }
+
+p {
+  color: var(--small-text-color);
+  font-size: 0.9rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--heading-color);
+}

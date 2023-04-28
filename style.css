@@ -168,7 +168,7 @@ section {
 }
 
 .view__more-btn {
-  padding: 7px 35px;
+  padding: 10px 35px;
   background: var(--primary-color);
   border-radius: 5px;
   border: none;
@@ -176,4 +176,14 @@ section {
   font-size: 1rem;
   font-weight: 600;
   color: var(--secondary-color);
+}
+
+.play__btn {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  border-radius: 50%;
 }

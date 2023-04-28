@@ -50,3 +50,16 @@ h3,
 h4 {
   color: var(--heading-color);
 }
+
+.container {
+  width: 1140px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+.highlight {
+  color: var(--primary-color);
+}
+
+/* =========== header style ============= */
+

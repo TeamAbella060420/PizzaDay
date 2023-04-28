@@ -50,6 +50,7 @@ h2,
 h3,
 h4 {
   color: var(--heading-color);
+  font-weight: 500;
 }
 
 /* reusable css */
@@ -140,7 +141,6 @@ section {
   display: flex;
   justify-content: space-between;
   column-gap: 2rem;
-
 }
 
 .hero__content,
@@ -219,6 +219,9 @@ section {
   display: flex;
   column-gap: 1rem;
   cursor: pointer;
+  background: #152833;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 .dish__img {
@@ -227,4 +230,53 @@ section {
 
 .dish__img img {
   width: 100%;
+}
+
+.ratings {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ratings span i {
+  color: var(--primary-color);
+}
+
+.dish__content-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dish__price {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+}
+
+.dish__content {
+  width: 75%;
+}
+
+.add__cart {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add__cart i {
+  font-weight: 600;
+}
+
+.dish__item:nth-child(2) .dish__img img,
+.dish__item:nth-child(3) .dish__img img {
+  width: 150%;
+  margin-left: -15px;
 }

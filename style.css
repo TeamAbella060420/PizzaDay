@@ -69,7 +69,6 @@ h4 {
 section {
   padding: 60px 0px;
   border: 1px solid red;
-
 }
 
 /* =========== header style ============= */
@@ -295,4 +294,35 @@ section {
   display: flex;
   align-items: center;
   column-gap: 2rem;
+}
+
+.about__img,
+.about__content {
+  width: 50%;
+}
+
+.about__img img {
+  width: 100%;
+}
+
+.about__content h3 {
+  font-size: 1.7rem;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.learn__more {
+  margin-top: 30px;
+  padding: 10px 35px;
+  font-size: 1rem;
+  border: none;
+  background: var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.learn__more a {
+  color: var(--secondary-color);
+  font-weight: 600;
 }

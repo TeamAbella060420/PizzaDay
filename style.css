@@ -319,7 +319,7 @@ section {
   background: var(--primary-color);
   border-radius: 5px;
   cursor: pointer;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .learn__more a {
@@ -365,4 +365,20 @@ section {
 
 .menu__card-bottom .ratings {
   margin-bottom: 10px;
+}
+
+/* offer section style */
+
+.offer__wrapper {
+  display: flex;
+  column-gap: 2rem;
+}
+
+.offer__content,
+.offer__img {
+  width: 50%;
+}
+
+.offer__img img {
+  width: 100%;
 }

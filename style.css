@@ -391,3 +391,24 @@ section {
 .offer__content p {
   margin-bottom: 40px;
 }
+
+/* blog section style */
+
+.blog__top {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.blog__top h2 {
+  font-size: 2rem;
+}
+
+.blog__wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+
+.blog__item {
+  width: 33%;
+}

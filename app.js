@@ -31,6 +31,8 @@ headerObserver.observe(header)
 
 // page navigation scroll smoothly with event delegation
 
+const sections = document.querySelector('section')
+
 ul.addEventListener('click', (e) => {
   e.preventDefault()
 
@@ -39,5 +41,6 @@ ul.addEventListener('click', (e) => {
     document.querySelector(linkRef).scrollIntoView({
       behavior: "smooth"
     });
+    sections.forEach((section) => (section.style.paddingTop = "100px"));
   }
 });

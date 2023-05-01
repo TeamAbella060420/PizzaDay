@@ -456,3 +456,42 @@ section {
 .footer__box {
   width: 15%;
 }
+
+.footer__logo p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.subscribe__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px ;
+  width: 80%;
+}
+
+.subscribe__box input {
+  padding: 15px 7px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--small-text-color);
+  font-size: 0.9rem;
+}
+
+.subscribe__box input::placeholder {
+  color: var(--small-text-color);
+}
+
+.subscribe__btn {
+  padding: 15px 15px;
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 0px 5px 5px 0px;
+}

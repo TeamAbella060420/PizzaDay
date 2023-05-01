@@ -448,3 +448,11 @@ section {
   display: flex;
   column-gap: 2rem;
 }
+
+.footer__logo {
+  width: 40%;
+}
+
+.footer__box {
+  width: 15%;
+}

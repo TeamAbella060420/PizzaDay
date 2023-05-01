@@ -41,12 +41,30 @@ ul.addEventListener('click', (e) => {
     document.querySelector(linkRef).scrollIntoView({
       behavior: "smooth"
     });
-    sections.forEach((section) => (section.style.paddingTop = "120px"));
+    sections.forEach((section) => (section.style.paddingTop = "100px"));
   }
 });
 
 // fading animation with better performance
 
-const allSections = document.querySelector('.section')
+const allSections = document.querySelectorAll('.section')
 
-const sectionObserver = new IntersectionObserver(fading)
+const fadingSection = (entries, observer) => {
+  const [entry] = entries
+
+  console.log('hello');
+
+  if (!entry.isIntersecting)  return; 
+   entry.target.classList.remove('section__hidden')
+  
+}
+
+const sectionObserver = new IntersectionObserver(fadingSection, {
+  root: null,
+  threshold: 0.12,
+})
+
+allSections.forEach((section) => {
+  sectionObserver.observe(section);
+  section.classList.add('section__hidden');
+});

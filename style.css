@@ -413,6 +413,7 @@ section {
   width: 33%;
   border: 1px solid var(--card-bg);
   border-radius: 5px;
+  padding: 20px;
 }
 
 .blog__img img {
@@ -420,10 +421,17 @@ section {
   border-radius: 5px;
 }
 
-.blog__content {
-  padding: 20px;
+.blog__content h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
-.blog__content h3 {
-  margin-bottom: 10px;
+.blog__content p {
+  margin-bottom: 20px;
+}
+
+.read__more {
+  color: var(--primary-color);
+  font-size: .9rem;
+  cursor: pointer;
 }

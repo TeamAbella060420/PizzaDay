@@ -25,10 +25,10 @@ body {
   font-family: var(--font-name);
 }
 
-html,
+/* html,
 body {
   scroll-behavior: smooth;
-}
+} */
 
 a {
   text-decoration: none;

@@ -55,7 +55,9 @@ const fadingSection = (entries, observer) => {
   console.log('hello');
 
   if (!entry.isIntersecting)  return; 
-   entry.target.classList.remove('section__hidden')
+   entry.target.classList.remove('section__hidden');
+
+   observer.unobserve(entry.target)
   
 }
 

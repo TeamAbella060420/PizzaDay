@@ -468,7 +468,7 @@ section {
   justify-content: space-between;
   border: 1px solid var(--primary-color);
   border-radius: 5px ;
-  width: 80%;
+  width: 90%;
 }
 
 .subscribe__box input {

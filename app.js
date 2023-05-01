@@ -52,13 +52,9 @@ const allSections = document.querySelectorAll('.section')
 const fadingSection = (entries, observer) => {
   const [entry] = entries
 
-  console.log('hello');
-
   if (!entry.isIntersecting)  return; 
    entry.target.classList.remove('section__hidden');
-
    observer.unobserve(entry.target)
-  
 }
 
 const sectionObserver = new IntersectionObserver(fadingSection, {

@@ -505,3 +505,8 @@ section {
   flex-direction: column;
   row-gap: 1rem;
 }
+
+.footer__link {
+  color: var(--small-text-color);
+  font-size: .9rem;
+}

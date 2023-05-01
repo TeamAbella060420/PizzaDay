@@ -411,4 +411,15 @@ section {
 
 .blog__item {
   width: 33%;
+  border: 1px solid var(--card-bg);
+  border-radius: 5px;
+}
+
+.blog__img img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.blog__content {
+  padding: 20px;
 }

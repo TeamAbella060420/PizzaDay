@@ -423,3 +423,7 @@ section {
 .blog__content {
   padding: 20px;
 }
+
+.blog__content h3 {
+  margin-bottom: 10px;
+}

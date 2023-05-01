@@ -378,7 +378,7 @@ section {
 
 .offer__img img {
   width: 100%;
-} 
+}
 
 .offer__content h2 {
   font-size: 2.5rem;
@@ -430,7 +430,7 @@ section {
 
 .read__more {
   color: var(--primary-color);
-  font-size: .9rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 
@@ -465,7 +465,7 @@ section {
   align-items: center;
   justify-content: space-between;
   border: 1px solid var(--primary-color);
-  border-radius: 5px ;
+  border-radius: 5px;
   width: 90%;
 }
 
@@ -506,7 +506,7 @@ section {
 
 .footer__link {
   color: var(--small-text-color);
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .footer__copyright {
@@ -578,5 +578,17 @@ section {
 
   .mobile__menu {
     display: block;
+  }
+
+  .hero__content h2,
+  .offer__content h2 {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+
+  .dishes__section-top h2,
+  .menu__section-top h2,
+  .blog__top h2 {
+    font-size: 1.5rem;
   }
 }

@@ -513,3 +513,14 @@ section {
   text-align: center;
   margin-top: 50px;
 }
+
+/* animation style */
+
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section__hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}

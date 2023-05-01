@@ -59,7 +59,6 @@ h4 {
   width: 1140px;
   margin: auto;
   padding: 0px 20px;
-  border: 1px solid red;
 }
 
 .highlight {
@@ -68,7 +67,6 @@ h4 {
 
 section {
   padding: 60px 0px;
-  border: 1px solid red;
 }
 
 /* =========== header style ============= */

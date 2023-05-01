@@ -435,3 +435,16 @@ section {
   font-size: .9rem;
   cursor: pointer;
 }
+
+/* footer style */
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background: var(--card-bg);
+}
+
+.footer__wrapper {
+  display: flex;
+  column-gap: 2rem;
+}

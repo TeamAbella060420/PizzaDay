@@ -499,3 +499,9 @@ section {
 .footer__link-title {
   margin-bottom: 20px;
 }
+
+.footer__menu {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}

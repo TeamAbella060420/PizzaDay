@@ -510,3 +510,8 @@ section {
   color: var(--small-text-color);
   font-size: .9rem;
 }
+
+.footer__copyright {
+  text-align: center;
+  margin-top: 50px;
+}

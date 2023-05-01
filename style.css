@@ -623,4 +623,8 @@ section {
     padding: 8px 30px;
     font-size: 0.8rem;
   }
+
+  .logo h2 {
+    font-size: 1.2rem;
+  }
 }

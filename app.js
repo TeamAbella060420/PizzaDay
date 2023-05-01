@@ -13,7 +13,7 @@ const stickyNav = (entries) => {
 
   const [entry] = entries
 
-  if(!entry.isIntersecting) {
+  if (!entry.isIntersecting) {
     return nav.classList.add('header__sticky')
   }
   else {

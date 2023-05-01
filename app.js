@@ -30,6 +30,7 @@ const headerObserver = new IntersectionObserver(stickyNav, {
 headerObserver.observe(header)
 
 // page navigation scroll smoothly with event delegation
+
 ul.addEventListener('click', (e) => {
   e.preventDefault()
 

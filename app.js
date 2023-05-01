@@ -31,7 +31,7 @@ headerObserver.observe(header)
 
 // page navigation scroll smoothly with event delegation
 
-const sections = document.querySelector('section')
+const sections = document.querySelectorAll('section')
 
 ul.addEventListener('click', (e) => {
   e.preventDefault()
@@ -41,6 +41,12 @@ ul.addEventListener('click', (e) => {
     document.querySelector(linkRef).scrollIntoView({
       behavior: "smooth"
     });
-    sections.forEach((section) => (section.style.paddingTop = "100px"));
+    sections.forEach((section) => (section.style.paddingTop = "120px"));
   }
 });
+
+// fading animation with better performance
+
+const allSections = document.querySelector('.section')
+
+const sectionObserver = new IntersectionObserver(fading)

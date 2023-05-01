@@ -593,6 +593,34 @@ section {
   }
 
   .dish__content h3 {
-    font-size: .9rem;
+    font-size: 0.9rem;
+  }
+
+  .dish__price {
+    font-size: 1rem;
+  }
+
+  .ratings span i {
+    font-size: 0.8rem;
+  }
+
+  .ratings {
+    margin-bottom: 10px;
+  }
+
+  .add__cart {
+    width: 25px;
+    height: 25px;
+  }
+
+  .about__content h3 {
+    font-size: 1.4rem;
+    line-height: 35px;
+  }
+
+  .view__more-btn,
+  .learn__more {
+    padding: 8px 30px;
+    font-size: 0.8rem;
   }
 }

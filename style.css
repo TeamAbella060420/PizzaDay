@@ -635,4 +635,8 @@ section {
   .menu__card-bottom {
     margin-top: 0;
   }
+
+  .blog__content h3 {
+    font-size: 1rem;
+  }
 }

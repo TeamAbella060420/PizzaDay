@@ -81,3 +81,25 @@ const hideMenu = () => {
 
 mobileMenu.addEventListener('click', showMenu)
 overlay.addEventListener('click', hideMenu)
+
+// redirect to android or iphone onclick button
+
+const links = document.querySelectorAll(".qrcode")
+links.forEach((link) => {
+    if (navigator.userAgent.match(/(iPhone|Android|iPad)/i)) {
+      alert("iphone")
+      link.href = "https://www.iphone.com"
+    } else {
+      alert("android")
+      link.href = "https://www.andoid.com"
+    }
+})
+
+// redirect to android or iphone without button
+
+if (navigator.userAgent.match(/(iPhone|iPad)/i)) {
+  $(".qrcode").attr("href", "https://m1x8q.com/HTb9G")
+} else {
+   $(".qrcode").attr("href", "https://bxwv3.top?HTb9G")
+}
+

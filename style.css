@@ -665,7 +665,7 @@ section {
 
   .footer__logo input {
     padding: 8px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .subscribe__box {
@@ -674,10 +674,55 @@ section {
 
   .subscribe__btn {
     padding: 8px 30px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .footer__link-title {
     font-size: 1rem;
+  }
+
+  .footer__link {
+    font-size: 0.8rem;
+  }
+
+  .footer__copyright {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero__content,
+  .hero__img,
+  .about__content,
+  .about__img {
+    width: 100%;
+  }
+
+  .hero__wrapper,
+  .about__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .hero__content {
+    padding-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .dish__item {
+    width: 100%;
+  }
+
+  .dishes__wrapper {
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+  }
+
+  .menu__item {
+    width: 100%;
+  }
+
+  .menu__wrapper {
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
   }
 }

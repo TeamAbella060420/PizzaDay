@@ -639,4 +639,45 @@ section {
   .blog__content h3 {
     font-size: 1rem;
   }
+
+  .blog__content p {
+    line-height: 25px;
+    font-size: 0.8rem;
+  }
+
+  .blog__item {
+    padding: 0;
+    border: none;
+  }
+
+  .footer__logo {
+    width: 100%;
+  }
+
+  .footer__wrapper {
+    flex-wrap: wrap;
+    row-gap: 2rem;
+  }
+
+  .footer__box {
+    width: 30%;
+  }
+
+  .footer__logo input {
+    padding: 8px;
+    font-size: .8rem;
+  }
+
+  .subscribe__box {
+    width: 100%;
+  }
+
+  .subscribe__btn {
+    padding: 8px 30px;
+    font-size: .8rem;
+  }
+
+  .footer__link-title {
+    font-size: 1rem;
+  }
 }
